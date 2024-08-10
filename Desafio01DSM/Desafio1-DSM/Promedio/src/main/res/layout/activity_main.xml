@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="50dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del estudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etGrade1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 1 "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etGrade2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 2 "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etGrade3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 3 "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etGrade4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 4 "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etGrade5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 5 "
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Promedio"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
